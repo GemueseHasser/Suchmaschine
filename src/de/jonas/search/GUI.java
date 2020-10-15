@@ -24,6 +24,7 @@ public class GUI {
         frame.setLayout(null);
         frame.setResizable(false);
         frame.requestFocus();
+        frame.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/de/jonas/image/Lupe.jpg")));
         frame.addKeyListener(new KeyHandler());
 
         Font Headingfont = new Font("Arial", Font.BOLD, 50);
